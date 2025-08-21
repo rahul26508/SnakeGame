@@ -194,28 +194,28 @@ document.addEventListener("keydown", (e) => {
 });
 
 // Touch controls
-function setupTouchControls() {
-  const upBtn = document.getElementById("upBtn");
-  const leftBtn = document.getElementById("leftBtn");
-  const rightBtn = document.getElementById("rightBtn");
-  const downBtn = document.getElementById("downBtn");
+// function setupTouchControls() {
+//   const upBtn = document.getElementById("upBtn");
+//   const leftBtn = document.getElementById("leftBtn");
+//   const rightBtn = document.getElementById("rightBtn");
+//   const downBtn = document.getElementById("downBtn");
 
-  upBtn.addEventListener("click", () => {
-    if (direction !== "DOWN") moveQueue.push("UP");
-  });
+//   upBtn.addEventListener("click", () => {
+//     if (direction !== "DOWN") moveQueue.push("UP");
+//   });
 
-  leftBtn.addEventListener("click", () => {
-    if (direction !== "RIGHT") moveQueue.push("LEFT");
-  });
+//   leftBtn.addEventListener("click", () => {
+//     if (direction !== "RIGHT") moveQueue.push("LEFT");
+//   });
 
-  rightBtn.addEventListener("click", () => {
-    if (direction !== "LEFT") moveQueue.push("RIGHT");
-  });
+//   rightBtn.addEventListener("click", () => {
+//     if (direction !== "LEFT") moveQueue.push("RIGHT");
+//   });
 
-  downBtn.addEventListener("click", () => {
-    if (direction !== "UP") moveQueue.push("DOWN");
-  });
-}
+//   downBtn.addEventListener("click", () => {
+//     if (direction !== "UP") moveQueue.push("DOWN");
+//   });
+// }
 
 // Swipe controls for mobile
 let touchStartX = 0;
@@ -283,3 +283,4 @@ setupTouchControls();
 
 // Start game
 gameLoop();
+
