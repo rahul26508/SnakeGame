@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animated Snake Game</title>
+	<link rel="stylesheet" href="snake.css">
+</head>
+<body>
+	<div id="gameContainer">
+		<div id="score">Score: 0</div>
+		<canvas id="gameCanvas" width="480" height="480"></canvas>
+		<div id="gameOver">Game Over!</div>
+		<button id="restartBtn" style="margin-top:15px;padding:10px 24px;border-radius:8px;background:#00ff99;color:#222;font-size:1em;border:none;box-shadow:0 2px 8px #00ff99;cursor:pointer;">Restart</button>
+	</div>
+	
+	<!-- Touch Controls for Mobile -->
+	<div id="touchControls">
+		<div class="dpad">
+			<button id="upBtn" aria-label="Move Up">↑</button>
+			<button id="leftBtn" aria-label="Move Left">←</button>
+			<button id="rightBtn" aria-label="Move Right">→</button>
+			<button id="downBtn" aria-label="Move Down">↓</button>
+		</div>
+	</div>
+	
+	<script src="snake.js"></script>
+</body>
+</html>
