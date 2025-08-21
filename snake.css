@@ -139,7 +139,7 @@ canvas {
         padding: 10px;
     }
     
-    .dpad {
+        /* .dpad {
         grid-template-columns: 50px 50px 50px;
         grid-template-rows: 50px 50px 50px;
         gap: 3px;
@@ -147,14 +147,14 @@ canvas {
     
     .dpad button {
         font-size: 20px;
-    }
+    } */
 }
 
 @media (max-width: 360px) {
-    .dpad {
+       /* .dpad {
         grid-template-columns: 45px 45px 45px;
         grid-template-rows: 45px 45px 45px;
-    }
+    } */
 }
 
 @media (min-width: 769px) {
@@ -191,3 +191,4 @@ canvas {
         transform: none;
     }
 }
+
