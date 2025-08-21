@@ -279,8 +279,9 @@ document.getElementById("restartBtn").onclick = function () {
 };
 
 // Initialize touch controls
-setupTouchControls();
+//setupTouchControls();
 
 // Start game
 gameLoop();
+
 
